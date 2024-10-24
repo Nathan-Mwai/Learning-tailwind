@@ -22,6 +22,15 @@ export default function Home() {
     <p>My competitor will see my spaces and admire</p>
   </div> */}
     </div>
+    {/* Moving to typography */}
+    <div>
+      <p>Title 1</p>
+      <p>Title 2</p>
+      <p>Title 3</p>
+      <p>A regular paragraph</p>
+      <p>A description paragraph</p>
+      <p>A little note</p>
+    </div>
   </div>
   );
 }
