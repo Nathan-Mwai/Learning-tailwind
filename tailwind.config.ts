@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // Coloring my way
+        vuejs: {
+          245: "#58bfa0",
+          675:"#9265db",
+        },
       },
     },
   },
