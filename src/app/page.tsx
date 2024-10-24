@@ -14,6 +14,11 @@ export default function Home() {
   </h1>
   {/* This will change text size in accordance to the screen size */}
   <p className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello Long Sentence I am Gonna change in accordance to the screen you are viewing me from XOXO</p>
+  <div>
+    {/* Using the space setting */}
+    <p className="mb-1">Adding space to me so I can be compared</p>
+    <p>My competitor will see my spaces and admire</p>
+  </div>
   </div>
   );
 }
