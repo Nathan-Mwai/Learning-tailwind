@@ -4,8 +4,7 @@
 
 @layer base{
   html {
-    @apply bg-slate-500;
-    @apply text-white; 
+    @apply bg-slate-500 text-white text-lg;
   }
 }
 :root {
