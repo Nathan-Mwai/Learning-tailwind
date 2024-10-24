@@ -16,7 +16,8 @@ export default function Home() {
   <p className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello Long Sentence I am Gonna change in accordance to the screen you are viewing me from XOXO</p>
   <div>
     {/* Using the space setting */}
-    <p className="mb-1">Adding space to me so I can be compared</p>
+    {/* Used arbitrary values at bg where tou set the color inside of the className instead of putting it in the tailwind config file*/}
+    <p className="mb-1 bg-[#bada55] ">Adding space to me so I can be compared</p>
     <p>My competitor will see my spaces and admire</p>
   </div>
   </div>
