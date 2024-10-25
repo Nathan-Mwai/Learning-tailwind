@@ -24,12 +24,12 @@ export default function Home() {
     </div>
     {/* Moving to typography */}
     <div>
-      <p className="text-3xl italic">Title 1</p>
+      {/* <p className="text-3xl italic">Title 1</p>
       <p className="text-2xl underline underline-offset-8 decoration-teal-400 decoration-wavy decoration-4">Title 2</p>
       <p className="text-xl lowercase">Title 3</p>
       <p className="text-base capitalize">A regular paragraph</p>
       <p className="text-sm">A description paragraph</p>
-      <p className="note text-xs">A little note</p>
+      <p className="note text-xs">A little note</p> */}
     </div>
   </div>
   );
