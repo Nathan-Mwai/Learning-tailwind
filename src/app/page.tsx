@@ -24,12 +24,12 @@ export default function Home() {
     </div>
     {/* Moving to typography */}
     <div>
-      <p>Title 1</p>
-      <p>Title 2</p>
-      <p>Title 3</p>
-      <p>A regular paragraph</p>
-      <p>A description paragraph</p>
-      <p>A little note</p>
+      <p className="text-3xl">Title 1</p>
+      <p className="text-2xl">Title 2</p>
+      <p className="text-xl">Title 3</p>
+      <p className="text-base">A regular paragraph</p>
+      <p className="text-sm">A description paragraph</p>
+      <p className="note text-xs">A little note</p>
     </div>
   </div>
   );
