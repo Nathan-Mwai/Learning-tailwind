@@ -24,8 +24,8 @@ export default function Home() {
     </div>
     {/* Moving to typography */}
     <div>
-      <p className="text-3xl">Title 1</p>
-      <p className="text-2xl">Title 2</p>
+      <p className="text-3xl italic">Title 1</p>
+      <p className="text-2xl underline underline-offset-8 decoration-wavy decoration-4">Title 2</p>
       <p className="text-xl">Title 3</p>
       <p className="text-base">A regular paragraph</p>
       <p className="text-sm">A description paragraph</p>
