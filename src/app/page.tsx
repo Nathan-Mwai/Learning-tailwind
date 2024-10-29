@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div>
+      {/* <div> */}
     {/* <h1 className="border-4 border-teal-600"> */}
       {/* bg = background */}
       {/* text = to the text itself */}
@@ -21,7 +21,7 @@ export default function Home() {
     {/* <p >Adding space to me so I can be compared</p>
     <p>My competitor will see my spaces and admire</p>
   </div> */}
-    </div>
+    {/* </div> */}
     {/* Moving to typography */}
     <div>
       {/* <p className="text-3xl italic">Title 1</p>
@@ -32,9 +32,9 @@ export default function Home() {
       <p className="note text-xs">A little note</p> */}
       {/* <p className="truncate">This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p> */}
     </div>
-    <div className="flex w-full">
-      <div className="w-1/5  bg-purple-600 min-w-min">Sidebar</div>
-      <div className="w-4/5  bg-teal-600 h-8">Main</div>
+    <div className="flex min-h-screen space-x-4">
+      <div className="w-1/5  bg-purple-600 ">Sidebar</div>
+      <div className="w-4/5  bg-teal-600">Main</div>
     </div>
   </div>
   );
