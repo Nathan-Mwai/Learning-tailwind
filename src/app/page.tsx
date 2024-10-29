@@ -32,6 +32,10 @@ export default function Home() {
       <p className="note text-xs">A little note</p> */}
       {/* <p className="truncate">This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p> */}
     </div>
+    <div className="flex w-full">
+      <div className="w-1/2 h-16 bg-purple-600">x</div>
+      <div className="w-1/2 h-16 bg-teal-600">x</div>
+    </div>
   </div>
   );
 }
