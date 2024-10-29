@@ -30,7 +30,7 @@ export default function Home() {
       <p className="text-base capitalize">A regular paragraph</p>
       <p className="text-sm">A description paragraph</p>
       <p className="note text-xs">A little note</p> */}
-      <p className="truncate">This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p>
+      {/* <p className="truncate">This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p> */}
     </div>
   </div>
   );
