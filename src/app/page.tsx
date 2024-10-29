@@ -23,7 +23,7 @@ export default function Home() {
   </div> */}
     {/* </div> */}
     {/* Moving to typography */}
-    <div>
+    {/* <div> */}
       {/* <p className="text-3xl italic">Title 1</p>
       <p className="text-2xl underline underline-offset-8 decoration-teal-400 decoration-wavy decoration-4">Title 2</p>
       <p className="text-xl lowercase">Title 3</p>
@@ -31,11 +31,12 @@ export default function Home() {
       <p className="text-sm">A description paragraph</p>
       <p className="note text-xs">A little note</p> */}
       {/* <p className="truncate">This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p> */}
-    </div>
-    <div className="flex min-h-screen space-y-4">
+    {/* </div> */}
+    {/* <div className="flex min-h-screen space-y-4">
       <div className="w-1/5  bg-purple-600 ">Sidebar</div>
       <div className="w-4/5  bg-teal-600">Main</div>
-    </div>
+    </div> */}
+    
   </div>
   );
 }
