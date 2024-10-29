@@ -32,7 +32,7 @@ export default function Home() {
       <p className="note text-xs">A little note</p> */}
       {/* <p className="truncate">This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p> */}
     </div>
-    <div className="flex min-h-screen space-x-4">
+    <div className="flex min-h-screen space-y-4">
       <div className="w-1/5  bg-purple-600 ">Sidebar</div>
       <div className="w-4/5  bg-teal-600">Main</div>
     </div>
