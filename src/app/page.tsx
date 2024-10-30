@@ -37,10 +37,15 @@ export default function Home() {
       <div className="w-4/5  bg-teal-600">Main</div>
     </div> */}
       {/* Flexing starts here */}
-      <div>
+      <div className="Parent">
+        <div>Header</div>
+        <div className="flex flex-row flex-row-reverse">
         <div>Main content</div>
-
+        <div className="flex flex-col">
         <div>Sidebar</div>
+        <div>Menu</div>
+        </div>
+        </div>
       </div>
     </div>
   );
