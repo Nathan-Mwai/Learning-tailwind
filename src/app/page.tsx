@@ -39,8 +39,8 @@ export default function Home() {
       {/* Flexing starts here */}
       <div className="Parent">
         <div>Header</div>
-        <div className="flex flex-row flex-row-reverse">
-        <div>Main content</div>
+        <div className="flex">
+        <div className="grow">Main content</div>
         <div className="flex flex-col">
         <div>Sidebar</div>
         <div>Menu</div>
