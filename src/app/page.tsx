@@ -40,11 +40,9 @@ export default function Home() {
       <div className="Parent">
         <div>Header</div>
         <div className="flex">
-        <div className="grow">Main content</div>
-        <div className="flex flex-col">
-        <div>Sidebar</div>
-        <div>Menu</div>
-        </div>
+          <div className="basis-4/12">Sidebar</div>
+          <div className="basis-6/12">Main content</div>
+          <div className="basis-2/12">Another Sidebar</div>
         </div>
       </div>
     </div>
