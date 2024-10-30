@@ -40,18 +40,6 @@ export default function Home() {
       <div>
         <div>Main content</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
         <div>Sidebar</div>
       </div>
     </div>
