@@ -39,10 +39,9 @@ export default function Home() {
       {/* Flexing starts here */}
       <div className="Parent">
         <div>Header</div>
-        <div className="flex">
-          <div className="basis-4/12">Sidebar</div>
-          <div className="basis-6/12">Main content</div>
-          <div className="basis-2/12">Another Sidebar</div>
+        <div className="flex flex-col md:flex-row">
+          <div className="md:w-32 bg-fuchsia-600">Sidebar</div>
+          <div className="w-full bg-teal-600">Main content</div>
         </div>
       </div>
     </div>
