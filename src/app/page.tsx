@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+  <div>
       {/* <div> */}
     {/* <h1 className="border-4 border-teal-600"> */}
       {/* bg = background */}
       {/* text = to the text itself */}
       {/* border */}
     {/* Hello world! */}
-  {/* </h1> */}
-  {/* <h1 className="text-vuejs-675">
+    {/* </h1> */}
+    {/* <h1 className="text-vuejs-675">
     Hello world!
   </h1> */}
   {/* This will change text size in accordance to the screen size */}
@@ -36,7 +36,9 @@ export default function Home() {
       <div className="w-1/5  bg-purple-600 ">Sidebar</div>
       <div className="w-4/5  bg-teal-600">Main</div>
     </div> */}
-    
-  </div>
+    <div>
+      
+    </div>
+    </div>
   );
 }
