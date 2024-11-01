@@ -48,7 +48,7 @@ export default function Home() {
       {/* Grids starts here */}
       <div className="h-screen text-white Parent bg-slate-900">
         <div className="container mx-auto">
-          <div className="grid grid-cols-4">
+          <div className="grid grid-cols-4 gap-1">
             <div className="bg-sky-500 p-6 rounded-lg">First column</div>
             <div className="bg-sky-500 p-6 rounded-lg">second column</div>
             <div className="bg-sky-500 p-6 rounded-lg">Third column</div>
