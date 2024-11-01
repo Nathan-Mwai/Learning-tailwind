@@ -39,7 +39,7 @@ export default function Home() {
       {/* Flexing starts here */}
       <div className="Parent">
         <div>Header</div>
-        <div className="flex justify-start">
+        <div className="flex justify-end">
             <div className="">Sidebar</div>
             <div className="">Main content</div>
           </div>
