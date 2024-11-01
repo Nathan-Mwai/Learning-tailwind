@@ -39,9 +39,10 @@ export default function Home() {
       {/* Flexing starts here */}
       <div className="Parent">
         <div>Header</div>
-        <div className="flex justify-between">
+        <div className="flex justify-evenly">
             <div className="">Sidebar</div>
             <div className="">Main content</div>
+            <div className="">Another sidebar</div>
           </div>
         </div>
       </div>
