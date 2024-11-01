@@ -39,12 +39,12 @@ export default function Home() {
       {/* Flexing starts here */}
       <div className="Parent">
         <div>Header</div>
-        <div className="flex justify-evenly">
-            <div className="">Sidebar</div>
-            <div className="">Main content</div>
-            <div className="">Another sidebar</div>
-          </div>
+        <div className="flex items-baseline">
+          <div className=" bg-teal-500 pt-2 pb-6">01</div>
+          <div className=" bg-yellow-500 pt-8 pb-12">02</div>
+          <div className=" bg-fuchsia-500 pt-12 pb-4">03</div>
         </div>
       </div>
+    </div>
   );
 }
