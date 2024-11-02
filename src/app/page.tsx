@@ -48,11 +48,11 @@ export default function Home() {
       {/* Grids starts here */}
       <div className="h-screen text-white Parent bg-slate-900">
         <div className="container mx-auto">
-          <div className="grid grid-cols-6 gap-4 ">
-            <div className="p-6 rounded-lg col-start-2 col-span-4 bg-sky-500">01</div>
-            <div className="p-6 rounded-lg col-start-1 col-end-3 bg-sky-500">02</div>
-            <div className="p-6 rounded-lg col-end-7 col-span-2 bg-sky-500">03</div>
-            <div className="p-6 rounded-lg col-start-1 col-end-7 bg-sky-500">04</div>
+          <div className="grid grid-flow-col auto-cols-max">
+            <div className="p-6 rounded-lg bg-sky-500">01</div>
+            <div className="p-6 rounded-lg bg-sky-500">02</div>
+            <div className="p-6 rounded-lg bg-sky-500">03</div>
+            <div className="p-6 rounded-lg bg-sky-500">04</div>
           </div>
         </div>
       </div>
