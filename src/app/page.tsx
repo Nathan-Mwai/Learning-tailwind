@@ -52,7 +52,7 @@ export default function Home() {
             <div className="bg-sky-500 p-6 rounded-lg">1</div>
             <div className="bg-sky-500 p-6 rounded-lg">2</div>
             <div className="bg-sky-500 p-6 rounded-lg">3</div>
-            <div className="bg-sky-500 p-6 rounded-lg">4</div>
+            <div className="bg-sky-500 p-6 rounded-lg col-span-2">4</div>
             <div className="bg-sky-500 p-6 rounded-lg">5</div>
             <div className="bg-sky-500 p-6 rounded-lg">6</div>
           </div>
