@@ -65,8 +65,7 @@ export default function Home() {
         </div>
       </div> */}
       {/* LAYOUTS */}
-      <div>
-      </div>
+      <div></div>
     </div>
   );
 }
