@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </div> */}
       {/* Grids starts here */}
-      <div className="h-screen text-white Parent bg-slate-900">
+      {/* <div className="h-screen text-white Parent bg-slate-900">
         <div className="container mx-auto">
           <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
             <div className="p-6 rounded-lg bg-sky-500 col-span-2">01</div>
@@ -63,7 +63,7 @@ export default function Home() {
             <div className="p-6 rounded-lg bg-sky-500">12</div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
